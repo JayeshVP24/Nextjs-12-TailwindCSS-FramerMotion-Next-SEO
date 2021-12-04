@@ -2,7 +2,9 @@ import { LazyMotion, m } from "framer-motion";
 import type { NextPage } from "next";
 import dynamic from "next/dynamic";
 
-// import { SwiperSlide, Swiper } from "swiper/react";
+// import { SwiperSlide, Swiper } from "swiper/react"; //install npm swiper
+// import 'swiper/css'; //swiper styles, add more based upon features used
+
 // import { IKImage } from "imagekitio-react";
 
 
@@ -34,7 +36,7 @@ const Home: NextPage = () => {
   //             </div>
   //         </SwiperSlide>
   //     );
-  // });
+  // }); 
 
   
   return (
@@ -53,7 +55,8 @@ const Home: NextPage = () => {
             }}
         >
             <main>
-            {/* <div className="w-11/12 md-w-full relative z-0">
+                {/* Container for swiper */}
+            {/* <div className="w-11/12 md-w-full relative z-0"> 
                 <Swiper
                     tag="section"
                     wrapperTag="ul"
